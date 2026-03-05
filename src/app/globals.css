@@ -83,3 +83,68 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Bloomberg Terminal Styles */
+.bloomberg-terminal {
+  background-color: #0a0e17;
+  color: #ff8c00;
+  font-family: "Courier New", "Lucida Console", monospace;
+  min-height: 100vh;
+}
+
+.bb-panel {
+  background-color: #0d1117;
+  border: 1px solid #1e2d3d;
+  border-radius: 2px;
+}
+
+.bb-panel-header {
+  background-color: #1a2332;
+  border-bottom: 1px solid #1e2d3d;
+  padding: 4px 8px;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #ff8c00;
+}
+
+.bb-text-green { color: #00d26a; }
+.bb-text-red { color: #ff3e3e; }
+.bb-text-orange { color: #ff8c00; }
+.bb-text-blue { color: #4da6ff; }
+.bb-text-yellow { color: #ffd700; }
+.bb-text-white { color: #c8d6e5; }
+.bb-text-muted { color: #5a6a7a; }
+
+.bb-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.bb-scrollbar::-webkit-scrollbar-track {
+  background: #0d1117;
+}
+.bb-scrollbar::-webkit-scrollbar-thumb {
+  background: #1e2d3d;
+  border-radius: 3px;
+}
+.bb-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #2d3f52;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.bb-cursor {
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes ticker-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.bb-ticker {
+  animation: ticker-scroll 30s linear infinite;
+}

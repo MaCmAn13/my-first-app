@@ -12,7 +12,8 @@
 
 | ID | Feature | Status | Spec | Created |
 |----|---------|--------|------|---------|
+| PROJ-1 | Bloomberg Terminal Dashboard | In Progress | [PROJ-1-bloomberg-terminal.md](PROJ-1-bloomberg-terminal.md) | 2026-03-05 |
 
 <!-- Add features above this line -->
 
-## Next Available ID: PROJ-1
+## Next Available ID: PROJ-2
