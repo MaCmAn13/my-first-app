@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AI Coding Starter Kit",
-  description: "Built with AI Agent Team System",
+  title: "Marketing Agent - KI fuer Energieberater",
+  description: "Content-Planung und KPI-Tracking fuer KI-Loesungen im Energieberatungs-Sektor",
 };
 
 export default function RootLayout({
