@@ -12,7 +12,8 @@
 
 | ID | Feature | Status | Spec | Created |
 |----|---------|--------|------|---------|
+| PROJ-1 | Welcome Email Series | In Progress | [Spec](PROJ-1-welcome-email-series.md) | 2026-03-06 |
 
 <!-- Add features above this line -->
 
-## Next Available ID: PROJ-1
+## Next Available ID: PROJ-2
